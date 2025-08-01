@@ -1,0 +1,11 @@
+{
+  "name": "Java Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/java:0-17",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "vscjava.vscode-java-pack"
+  ],
+  "postCreateCommand": "echo 'Dev container ready!'"
+}
